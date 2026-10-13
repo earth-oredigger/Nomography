@@ -1,5 +1,8 @@
 """
     Law_of_Bond_Nomogram.py
+    Revision R1: metric (kWh/t) scales now use the correct conversion
+    1 kWh/t = 0.90718 kWh/sht (the factor was previously inverted on the
+    two metric scales; computed energies were unaffected).
 """
 import sys
 
@@ -93,7 +96,7 @@ energy_per_st_params = {
     "u_min": 5,
     "u_max": 20,
     "function": lambda u: u,
-    "title": r"$E - kWh/st$",
+    "title": r"$E - kWh/sht$",
     "title_draw_center": True,
     "title_distance_center": 1.5,
     # "title_x_shift": 0.90,
@@ -108,7 +111,7 @@ energy_per_st_index_params = {
     "u_min": 8,
     "u_max": 25,
     "function": lambda u: 10 * u,
-    "title": r"$Wi - kWh/st$",
+    "title": r"$Wi - kWh/sht$",
     "title_draw_center": True,
     "title_distance_center": 1.5,
     # "title_x_shift": 0.25,
@@ -157,9 +160,10 @@ energy_per_mt_params = {
 
 energy_per_mt_index_params = {
     "tag": "Wi",
-    "u_min": 8 * 0.90718,
-    "u_max": 25 * 0.90718,
-    "function": lambda u: 10 * u / 0.90718,
+    # 1 kWh/t (metric) = 0.90718 kWh/sht  ->  Wi_st = 0.90718 * Wi_t
+    "u_min": 8 / 0.90718,
+    "u_max": 25 / 0.90718,
+    "function": lambda u: 10 * u * 0.90718,
     "title": r"$Wi - kWh/mt$",
     "title_x_shift": 0.25,
     "title_y_shift": 1.25,
@@ -218,10 +222,11 @@ block_3_params = {
 
 E = {
     "tag": "E",
-    "u_min": 5 * 0.907,
-    "u_max": 20 * 0.907,
+    # E_st = 0.90718 * E_t
+    "u_min": 5 / 0.90718,
+    "u_max": 20 / 0.90718,
     "function": lambda u: u,
-    "align_func": lambda u: u / 0.907,
+    "align_func": lambda u: u * 0.90718,
     "title": r"E - kWh/mt",
     # "title_x_shift": -0.75,
     #'title_y_shift':0.25,

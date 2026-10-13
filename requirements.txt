@@ -1,0 +1,8 @@
+# Python 3.13 was used for the article
+# PyNomo + Nomogen: install from https://github.com/tevorbl/pynomo at commit dd19620
+#   (PyPI "PyNomo==0.3.6" provides PyNomo but not the nomogen module)
+PyNomo==0.3.6
+pyx==0.17
+numpy>=2.5,<3
+scipy>=1.18,<2
+# A LaTeX installation (e.g. TeX Live) is required by PyX to render text.

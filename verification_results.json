@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Bond's law (Fig. 3)",
+    "script": "Law_of_Bond_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      15.0,
+      10.0
+    ],
+    "construction_max_abs_pct": 1.0324025271139232e-11,
+    "construction_mean_pct": -5.552894399210467e-12,
+    "read_0.25mm": {
+      "median": 1.0140407289808642,
+      "p95": 3.2032437555689253,
+      "max": 9.710250959491198,
+      "within_1pct": 49.52189229994967,
+      "within_3pct": 93.50780070457976,
+      "central_n": 530,
+      "central_median": 1.0784432935133919,
+      "central_p95": 2.9930254294087537,
+      "outer_median": 0.9919113455717992,
+      "outer_p95": 3.3568257739306095
+    },
+    "read_0.5mm": {
+      "median": 1.980355034292115,
+      "p95": 6.763905032979892,
+      "max": 15.355316434197805,
+      "within_1pct": 26.63975782038345,
+      "within_3pct": 69.3239152371342,
+      "central_n": 528,
+      "central_median": 1.9396111294354514,
+      "central_p95": 5.53968511553992,
+      "outer_median": 1.9835769896227258,
+      "outer_p95": 7.0471010421078075
+    }
+  },
+  {
+    "name": "Modified Hogg & Fuerstenau (Figs. 5, 11)",
+    "script": "Modified_Hogg_Fuerstenau_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      20.0,
+      20.0
+    ],
+    "construction_max_abs_pct": 1.469990851325914e-12,
+    "construction_mean_pct": 1.5314937756949067e-13,
+    "read_0.25mm": {
+      "median": 1.4173132269517903,
+      "p95": 4.306323481113117,
+      "max": 7.633134352138679,
+      "within_1pct": 36.116700201207244,
+      "within_3pct": 82.19315895372233,
+      "central_n": 144,
+      "central_median": 1.3909095532454627,
+      "central_p95": 4.353898230943198,
+      "outer_median": 1.4173132269517903,
+      "outer_p95": 4.301029182209015
+    },
+    "read_0.5mm": {
+      "median": 2.794141058269966,
+      "p95": 8.350249566544367,
+      "max": 15.182693481188855,
+      "within_1pct": 19.56631366616238,
+      "within_3pct": 52.748361069087245,
+      "central_n": 144,
+      "central_median": 3.110955005378236,
+      "central_p95": 8.485052195442352,
+      "outer_median": 2.7711024422198185,
+      "outer_p95": 8.321138974840416
+    }
+  },
+  {
+    "name": "Azzaroni make-up ball size (Fig. 7)",
+    "script": "Azzaroni_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      25.0,
+      20.0
+    ],
+    "construction_max_abs_pct": 3.7022307924625526e-13,
+    "construction_mean_pct": 4.143843104470415e-14,
+    "read_0.25mm": {
+      "median": 0.3725462487392993,
+      "p95": 1.11467645905443,
+      "max": 2.17688185946207,
+      "within_1pct": 92.44622311155578,
+      "within_3pct": 100.0,
+      "central_n": 168,
+      "central_median": 0.3362893626157751,
+      "central_p95": 1.091022745871167,
+      "outer_median": 0.37807197944705667,
+      "outer_p95": 1.116425610161234
+    },
+    "read_0.5mm": {
+      "median": 0.7518254407215317,
+      "p95": 2.135995761565971,
+      "max": 3.8675310158232694,
+      "within_1pct": 62.262262262262254,
+      "within_3pct": 99.24924924924925,
+      "central_n": 168,
+      "central_median": 0.6943559790343699,
+      "central_p95": 2.1399812610210596,
+      "outer_median": 0.7554717782317435,
+      "outer_p95": 2.1348846763928355
+    }
+  },
+  {
+    "name": "Circulating load (Fig. 6)",
+    "script": "Circulating_Load_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      20.0,
+      10.0
+    ],
+    "construction_max_abs_pct": 3.3502597743073027e-12,
+    "construction_mean_pct": -1.021957637240571e-13,
+    "read_0.25mm": {
+      "median": 3.3520546170021226,
+      "p95": 18.867458334590783,
+      "max": 120.40140239028932,
+      "within_1pct": 17.801311144730207,
+      "within_3pct": 46.89863842662632,
+      "central_n": 504,
+      "central_median": 3.705222957736365,
+      "central_p95": 16.876144015575576,
+      "outer_median": 3.198574109910078,
+      "outer_p95": 19.666172123756862
+    },
+    "read_0.5mm": {
+      "median": 6.305023704520672,
+      "p95": 35.06418273182452,
+      "max": 165.70709048588452,
+      "within_1pct": 10.12207527975585,
+      "within_3pct": 28.331637843336726,
+      "central_n": 503,
+      "central_median": 7.098438411853033,
+      "central_p95": 35.591149575123424,
+      "outer_median": 6.042254849667956,
+      "outer_p95": 34.96072492219835
+    }
+  },
+  {
+    "name": "Valuable recovery (Fig. 8, Nomogen)",
+    "script": "Valuable_Recovery_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      10,
+      10
+    ],
+    "construction_max_abs_pct": 0.0025332616530319126,
+    "construction_mean_pct": -0.00011047969115920659,
+    "read_0.25mm": {
+      "median": 0.040790597390117186,
+      "p95": 0.14152973244594055,
+      "max": 0.38955749474680335,
+      "within_1pct": 100.0,
+      "within_3pct": 100.0,
+      "central_n": 710,
+      "central_median": 0.041078869391853096,
+      "central_p95": 0.12321398540070345,
+      "outer_median": 0.0406010828533373,
+      "outer_p95": 0.15099023641827639
+    },
+    "read_0.5mm": {
+      "median": 0.08260530278162553,
+      "p95": 0.27782683808876923,
+      "max": 0.6060408600110292,
+      "within_1pct": 100.0,
+      "within_3pct": 100.0,
+      "central_n": 710,
+      "central_median": 0.07977031611030522,
+      "central_p95": 0.22953333196925574,
+      "outer_median": 0.08372493933885099,
+      "outer_p95": 0.2971569287239863
+    }
+  },
+  {
+    "name": "Apparent charge density (Fig. A.2)",
+    "script": "Apparent_Mill_Charge_Density_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      15.0,
+      15.0
+    ],
+    "construction_max_abs_pct": 1.1075006434677529e-13,
+    "construction_mean_pct": -3.0336283697493314e-15,
+    "read_0.25mm": {
+      "median": 0.16858034030138158,
+      "p95": 0.6649706063062318,
+      "max": 2.0868495956304853,
+      "within_1pct": 98.25,
+      "within_3pct": 100.0,
+      "central_n": 736,
+      "central_median": 0.16765860799243315,
+      "central_p95": 0.5435065937597581,
+      "outer_median": 0.16936360705595227,
+      "outer_p95": 0.7560855872053898
+    },
+    "read_0.5mm": {
+      "median": 0.34798871933809516,
+      "p95": 1.3692942343555607,
+      "max": 4.437700078195166,
+      "within_1pct": 88.75,
+      "within_3pct": 99.7,
+      "central_n": 736,
+      "central_median": 0.3758181387526992,
+      "central_p95": 1.112632565969968,
+      "outer_median": 0.3336733625675787,
+      "outer_p95": 1.6167634572726617
+    }
+  },
+  {
+    "name": "Mill speed (Fig. A.1)",
+    "script": "Mill_Speed_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      10.0,
+      10.0
+    ],
+    "construction_max_abs_pct": 1.4765484393986496e-13,
+    "construction_mean_pct": -3.982603608142936e-15,
+    "read_0.25mm": {
+      "median": 0.3598340122953148,
+      "p95": 1.079749613607923,
+      "max": 2.0608706502286833,
+      "within_1pct": 92.73182957393483,
+      "within_3pct": 100.0,
+      "central_n": 834,
+      "central_median": 0.3531490686830007,
+      "central_p95": 1.034071819434156,
+      "outer_median": 0.36498871525590026,
+      "outer_p95": 1.1344473319652428
+    },
+    "read_0.5mm": {
+      "median": 0.743407525439638,
+      "p95": 2.1761678344470656,
+      "max": 4.061473227972488,
+      "within_1pct": 63.78704168759417,
+      "within_3pct": 99.09593169261677,
+      "central_n": 830,
+      "central_median": 0.7539752186020756,
+      "central_p95": 2.134319537533718,
+      "outer_median": 0.7383390120580517,
+      "outer_p95": 2.1856611638611647
+    }
+  },
+  {
+    "name": "Slurry density, weight % solids (Fig. A.3)",
+    "script": "Mill_Weight_Percentage_of_Solids_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      12,
+      18
+    ],
+    "construction_max_abs_pct": 0.012222116581615759,
+    "construction_mean_pct": -0.0017156456460875266,
+    "read_0.25mm": {
+      "median": 0.09065048758301447,
+      "p95": 0.2778442891438833,
+      "max": 0.5749069877203987,
+      "within_1pct": 100.0,
+      "within_3pct": 100.0,
+      "central_n": 706,
+      "central_median": 0.08806711750920788,
+      "central_p95": 0.25514454242075585,
+      "outer_median": 0.09289917570450067,
+      "outer_p95": 0.2832448668972076
+    },
+    "read_0.5mm": {
+      "median": 0.18672108325777576,
+      "p95": 0.5596569288395876,
+      "max": 1.1788227671924325,
+      "within_1pct": 99.95,
+      "within_3pct": 100.0,
+      "central_n": 706,
+      "central_median": 0.1748701139630641,
+      "central_p95": 0.5381671534568778,
+      "outer_median": 0.19337555539329332,
+      "outer_p95": 0.5757667371559846
+    }
+  },
+  {
+    "name": "Volume % solids (Fig. A.4)",
+    "script": "Mill_Volume_Percentage_of_Solids_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      12,
+      18
+    ],
+    "construction_max_abs_pct": 0.052896566989264676,
+    "construction_mean_pct": 0.004924255923027875,
+    "read_0.25mm": {
+      "median": 0.2922050189278198,
+      "p95": 1.1804343973620448,
+      "max": 2.7902421155562647,
+      "within_1pct": 92.65,
+      "within_3pct": 100.0,
+      "central_n": 714,
+      "central_median": 0.29555286954936766,
+      "central_p95": 0.9069417005673109,
+      "outer_median": 0.28959118190420186,
+      "outer_p95": 1.3185386402099997
+    },
+    "read_0.5mm": {
+      "median": 0.5488656056333882,
+      "p95": 2.258937596253881,
+      "max": 6.372001431192268,
+      "within_1pct": 74.35000000000001,
+      "within_3pct": 97.85000000000001,
+      "central_n": 714,
+      "central_median": 0.5287937327110721,
+      "central_p95": 1.68550632980903,
+      "outer_median": 0.553602234246587,
+      "outer_p95": 2.599911910075429
+    }
+  },
+  {
+    "name": "Weight of solids per litre (Fig. A.5)",
+    "script": "Mill_Weight_of_Solids_in_a_Litre_Nomogram.py",
+    "n": 2000,
+    "paper_cm": [
+      12,
+      18
+    ],
+    "construction_max_abs_pct": 0.12613629801398427,
+    "construction_mean_pct": -0.003603277689262432,
+    "read_0.25mm": {
+      "median": 0.2892622012960196,
+      "p95": 0.8338778629622826,
+      "max": 1.5442830183628045,
+      "within_1pct": 98.3,
+      "within_3pct": 100.0,
+      "central_n": 696,
+      "central_median": 0.2709159898785925,
+      "central_p95": 0.8028943323479029,
+      "outer_median": 0.29778270746729574,
+      "outer_p95": 0.8454812943998237
+    },
+    "read_0.5mm": {
+      "median": 0.5555685967069453,
+      "p95": 1.6750841409573376,
+      "max": 3.051819012829925,
+      "within_1pct": 77.64999999999999,
+      "within_3pct": 99.9,
+      "central_n": 696,
+      "central_median": 0.48867857785955476,
+      "central_p95": 1.6785602225749938,
+      "outer_median": 0.591095094038775,
+      "outer_p95": 1.6739270169135156
+    }
+  }
+]
