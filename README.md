@@ -92,4 +92,5 @@ mill power chart at about 1.5 × (A3) native size. Reading errors scale approxim
 
 ## Licence and citation
 
-Please cite the article and this release (Zenodo DOI: to be added).
+Please cite the article and this release (tag v1.1):
+https://github.com/earth-oredigger/Nomography/releases/tag/v1.1
